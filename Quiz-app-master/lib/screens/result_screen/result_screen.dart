@@ -29,7 +29,7 @@ class ResultScreen extends StatelessWidget {
               children: [
                 Text(
                   'Congratulation',
-                  style: Theme.of(context).textTheme.headline3!.copyWith(
+                  style: Theme.of(context).textTheme.displaySmall!.copyWith(
                         color: Colors.white,
                       ),
                 ),
@@ -38,7 +38,7 @@ class ResultScreen extends StatelessWidget {
                 ),
                 Text(
                   controller.name,
-                  style: Theme.of(context).textTheme.headline3!.copyWith(
+                  style: Theme.of(context).textTheme.displaySmall!.copyWith(
                         color: KPrimaryColor,
                       ),
                 ),
@@ -47,7 +47,7 @@ class ResultScreen extends StatelessWidget {
                 ),
                 Text(
                   'Your Score is',
-                  style: Theme.of(context).textTheme.headline4!.copyWith(
+                  style: Theme.of(context).textTheme.headlineMedium!.copyWith(
                         color: Colors.white,
                       ),
                 ),
@@ -56,7 +56,7 @@ class ResultScreen extends StatelessWidget {
                 ),
                 Text(
                   '${controller.scoreResult.round()} /100',
-                  style: Theme.of(context).textTheme.headline3!.copyWith(
+                  style: Theme.of(context).textTheme.displaySmall!.copyWith(
                         color: KPrimaryColor,
                       ),
                 ),

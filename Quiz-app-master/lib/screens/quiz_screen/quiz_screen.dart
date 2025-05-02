@@ -45,7 +45,7 @@ class QuizScreen extends StatelessWidget {
                               text: 'Question ',
                               style: Theme.of(context)
                                   .textTheme
-                                  .headline4!
+                                  .headlineMedium!
                                   .copyWith(color: Colors.white),
                               children: [
                                 TextSpan(
@@ -54,19 +54,19 @@ class QuizScreen extends StatelessWidget {
                                         .toString(),
                                     style: Theme.of(context)
                                         .textTheme
-                                        .headline4!
+                                        .headlineMedium!
                                         .copyWith(color: Colors.white)),
                                 TextSpan(
                                     text: '/',
                                     style: Theme.of(context)
                                         .textTheme
-                                        .headline5!
+                                        .headlineSmall!
                                         .copyWith(color: Colors.white)),
                                 TextSpan(
                                     text: controller.countOfQuestion.toString(),
                                     style: Theme.of(context)
                                         .textTheme
-                                        .headline5!
+                                        .headlineSmall!
                                         .copyWith(color: Colors.white)),
                               ]),
                         ),

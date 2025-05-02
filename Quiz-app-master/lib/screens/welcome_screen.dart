@@ -65,7 +65,7 @@ class _WelcomeScreenState extends State<WelcomeScreen> {
                       'Enter your name to start',
                       style: Theme.of(context)
                           .textTheme
-                          .headline6!
+                          .titleLarge!
                           .copyWith(color: Colors.white),
                     ),
                     const Spacer(

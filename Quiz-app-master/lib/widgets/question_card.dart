@@ -32,7 +32,7 @@ class QuestionCard extends StatelessWidget {
               children: [
                 Text(
                   questionModel.question,
-                  style: Theme.of(context).textTheme.headline6,
+                  style: Theme.of(context).textTheme.titleLarge,
                 ),
                 //const SizedBox(height: 15),
                 const Spacer(

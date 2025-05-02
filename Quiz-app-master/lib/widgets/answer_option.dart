@@ -38,11 +38,11 @@ class AnswerOption extends StatelessWidget {
                   RichText(
                     text: TextSpan(
                         text: '${index + 1}. ',
-                        style: Theme.of(context).textTheme.headline6,
+                        style: Theme.of(context).textTheme.titleLarge,
                         children: [
                           TextSpan(
                             text: text,
-                            style: Theme.of(context).textTheme.headline6,
+                            style: Theme.of(context).textTheme.titleLarge,
                           ),
                         ]),
                   ),

@@ -28,7 +28,7 @@ class ProgressTimer extends StatelessWidget {
                 '${controller.sec.value}',
                 style: Theme.of(context)
                     .textTheme
-                    .headline6!
+                    .titleLarge!
                     .copyWith(color: KPrimaryColor),
               ),
             ),
